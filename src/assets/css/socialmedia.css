@@ -1,0 +1,29 @@
+.social-box {
+    background-color: #16293f;
+    height: 75px;
+    width: 60%;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 0.2rem;
+    display: block !important;
+}
+.social-box:hover {
+    background-color: #D4AF37;
+}
+
+.logo-box {
+    position:relative;
+    top: calc(50% - 20px);
+}
+.social-logo {
+    font-size: 2.5rem;
+    color: white;
+}
+
+@media (max-width: 1199.98px) {
+    .social-box {
+        margin-left: auto !important;
+    }
+}

@@ -1,0 +1,114 @@
+.g-font {
+    font-family: 'Permanent Marker', cursive !important;
+}
+.g-font2 {
+    font-family: 'Open Sans', sans-serif !important;
+}
+.h1 { font-family: 'Open Sans', sans-serif !important; }
+.h2 { font-family: 'Open Sans', sans-serif !important; }
+.h3 { font-family: 'Open Sans', sans-serif !important; }
+.h4 { font-family: 'Open Sans', sans-serif !important; }
+.h5 { font-family: 'Open Sans', sans-serif !important; }
+.h6 { font-family: 'Open Sans', sans-serif !important; }
+/* Theme Coloring **/
+.primary {
+    color: #16293f !important;
+}
+.complement {
+    color: #D4AF37 !important;
+}
+.primary-bg {
+    background-color: #16293f !important;
+}
+.primary2-bg {
+    background-color: #f5f5f5 !important;
+}
+.complement-bg {
+    background-color: #D4AF37 !important;
+}
+.hover-primary:hover {
+    color: #16293f !important;
+}
+.hover-complement:hover {
+    color: #D4AF37 !important;
+}
+.hover-white:hover {
+    color: #ffffff !important;
+}
+.white {
+    color: #ffffff;
+}
+.shadow-md {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section-line {
+    height: 5px;
+    width: 200px;
+}
+/* End Theme Coloring **/
+
+.row-pb-0 {
+    padding-bottom: 0px !important;
+}
+.row-pt-0 {
+    padding-top: 0px !important;
+}
+.row {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+@media(max-width: 500px) {
+    .row {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+    .section-box {
+        margin-bottom: 2rem !important;
+    }
+}
+
+.section-box {
+    box-sizing: border-box;
+    border-bottom: 5px solid #D4AF37 !important;
+    /*border-top: 5px solid #D4AF37 !important;**/
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:  5rem;
+}
+
+.section-box-2 {
+    box-sizing: border-box;
+    border-bottom: 5px solid #16293f !important;
+    /*border-top: 5px solid #D4AF37 !important;**/
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+}
+.section-box-3 {
+    box-sizing: border-box;
+    border-bottom: 5px solid #ffffff !important;
+    /*border-top: 5px solid #D4AF37 !important;**/
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+}
+
+.section-title {
+    font-family: 'Permanent Marker', cursive;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0 !important;
+    font-size: 2rem;
+}
+
+.mlr-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.mtb-auto {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}

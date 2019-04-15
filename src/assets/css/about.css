@@ -1,0 +1,132 @@
+.profile-pic {
+    width: 100%;
+    border-radius: 50% !important;
+    max-width: 500px !important;
+}
+.profile-pic-2 {
+    width: 100%;
+    border-radius: 0.5rem !important;
+    max-width: 600px !important;
+}
+.pic-position {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.skills-title {
+    font-family: 'Open Sans', sans-serif !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0 !important;
+}
+
+.text-info {
+    color: #ffffff !important;
+    line-height: 35px !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skills-card {
+    margin: 20px;
+    padding: 20px;
+    margin-bottom: 40px;
+    
+}
+
+.skill-bg {
+    background-color: #cacaca;
+}
+
+.skill-row {
+    border-radius: 0.5rem !important;
+    background-color: #f7f7f7 !important;
+    display: flex;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skill-row-2 {
+    border-radius: 0.5rem !important;
+    background-color: #f7f7f7 !important;
+    display: block;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skill-bar {
+    display: contents;
+    height: 100%;
+}
+
+.progress {
+    display: inline-flex !important;
+    height: 20px !important;
+    width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.skill-icons {
+    font-size: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-right: 20px;  
+}
+.skill-icons2 {
+    font-size: 55px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;  
+}
+
+@media(max-width: 450px) {
+    .skills-card {
+        margin: 10px !important;
+        padding: 10px !important;
+    }
+    .skill-icons2 {
+        padding-left: 15px !important;
+        padding-right: 15px !important; 
+    }
+    .skill-row {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+@media(max-width: 800px) {
+    .skills-card {
+        padding: 10px !important;
+    }
+}
+
+.link {
+    text-decoration: none !important;
+}
+
+.sub-heading {
+    font-size: 1.75rem;
+}
+.spacer-pad {
+    height: 40px;
+    width: 100%;
+}

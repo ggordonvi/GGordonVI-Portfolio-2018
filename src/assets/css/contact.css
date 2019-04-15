@@ -1,0 +1,56 @@
+.email-panel {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-image: url('../images/grad.jpg');
+    background-position: 50% 50%;
+}
+@media (max-width: 1199.98px) {
+    .email-panel {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+}
+
+.spacer {
+    padding-top: 60px;
+}
+
+
+.email-me {
+    color: #ffffff;
+}
+.email-me:hover {
+    color: #D4AF37;
+    text-decoration: none;
+}
+
+.pic-text {
+    padding-right: 45%;
+}
+.expander {
+    margin-bottom: 5.5rem !important;
+}
+@media(max-width: 1000px) {
+    .pic-text {
+        padding-right: 45%;
+    }
+    .expander {
+        margin-bottom: 4rem !important;
+    }
+}
+@media(max-width: 600px) {
+    .pic-text {
+        padding-right: 20%;
+    }
+    .expander {
+        margin-bottom: 0rem !important;
+    }
+}

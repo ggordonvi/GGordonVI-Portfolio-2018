@@ -1,0 +1,118 @@
+.card {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 250px;
+    text-align: center;
+    display: grid;
+    border: 1px solid #16293f;
+}
+
+.card-body {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.project-grid {
+    display: grid;
+}
+.project-text {
+    margin-left: 30px;
+}
+.project-info {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: left !important;
+    max-width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pi-hv {
+    max-width: 750px !important;
+}
+.project-info-space-l {
+    padding-left: 15%;
+}
+.project-info-space-r {
+    padding-right: 15%;
+}
+.project-pic {
+    width: 100%;
+}
+.project-pic-hv {
+    width: 400px;
+}
+@media(max-width: 500px) {
+    .project-pic {
+        width: 100% !important;
+    }
+    .project-pic-hv {
+        width: 100% !important;
+    }
+    .project-text {
+        margin-left: 10px;
+    }
+}
+
+.carousel {
+    display: block;
+    transition: 0 !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pics {
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+}
+@media(max-width: 500px) {
+    .pics {
+        width: auto !important;
+        height: 200px !important;
+    }
+}
+
+.dis-flex {
+    display: flex !important;
+}
+.port-info-box {
+    border: 5px solid #D4AF37;
+    padding: 20px;
+}
+
+.project-pic-box {
+    text-align: center;
+}
+
+.web-link {
+    color: #D4AF37;
+}
+.web-link:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+.web-pad {
+    padding-left: 40px;
+}
+.hidden {
+    display: none;
+}
+@media(max-width: 1000.98px) {
+    .hidden {
+        display: block;
+    }
+    .hidden2 {
+        display: none !important;
+    }
+}
+
+.pull-l {
+    text-align: left;
+}
+.pull-r {
+    text-align: right;
+}
+
+.sub-text {
+    font-size: 22px;
+}
