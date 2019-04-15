@@ -1,3 +1,4 @@
-<b>My portfolio React JS / Bootstrap web application.<b>
+<b>George Gordon VI Portfolio.</b>
+Built with React JS and Bootstrap.
 
 Can be visited at <a>ggordonvi.com</a>
