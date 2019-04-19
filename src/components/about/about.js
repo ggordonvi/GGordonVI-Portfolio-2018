@@ -18,7 +18,7 @@ class About extends Component {
             </div>
             <div className="col-sm-12 offset-lg-1 col-lg-5 text-box mtb-auto">
               <p className="sub-heading complement g-font">Where am I from?  What's my story?</p>
-              <p className="text-info g-font2 pb-2">I was born and raised in Southern California.  I graduated from the University of South Carolina with a bachelor’s degree in Computer Information Systems and Business Administration.  I have been extremely fortunate to travel and live on both sides of the country.  I have a love for sports, especially if you mention beach volleyball.</p>
+              <p className="text-info g-font2 pb-2">I was born and raised in Southern California.  I graduated from the University of South Carolina with a bachelor’s degree in Computer Information Systems and Business Information Management.  I have been extremely fortunate to travel and live on both sides of the country.  I have a love for sports, especially if you mention beach volleyball.</p>
             </div>
             <div className="col-sm-12 col-lg-6 text-center pic-position">
               <img src={ProfilePic} className="profile-pic shadow-md" alt="..."></img>
