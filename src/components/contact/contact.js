@@ -19,7 +19,7 @@ class Contact extends Component {
           <div className="row pt-0 expander">
             <div className="col-sm-12 col-md-8 mtb-auto">
               <div className="email-panel primary-bg shadow-md">
-                <p className="h2 white g-font pic-text">I'm about to graduate and I'm looking for a career!</p>
+                <p className="h2 white g-font pic-text">I just graduated and I'm looking for a career!</p>
                 <p className="h5 white g-font spacer pic-text">Please contact me at <a className="email-me complement" href="mailto:ggordonvi@gmail.com">ggordonvi@gmail.com</a>.</p>
               </div>
             </div>
