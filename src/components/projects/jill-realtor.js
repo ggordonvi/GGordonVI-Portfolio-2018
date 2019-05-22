@@ -47,7 +47,10 @@ class JillRealtor extends Component {
             <li>SEO optimization and Google Analytics.</li>
             <li>AWS ElasticBeanstalk and AWS SES hosting.</li>
           </ul>
-          <p className="h5 complement">Check out this website at <a className="web-link" href="http://www.jillsellsthecarolinas.com" target="_blank" rel="noopener noreferrer">www.jillsellsthecarolinas.com</a>.</p>
+          <div className="project-navigate">
+            <a className="project-button" href="http://jillsellsthecarolinas.com" target="_blank" rel="noopener noreferrer">View</a>
+            {/*<a className="project-button" href="https://github.com/sixtheddie/Seating-App" target="_blank" rel="noopener noreferrer">Source</a>*/}
+          </div>
         </div>
       </div>
     );

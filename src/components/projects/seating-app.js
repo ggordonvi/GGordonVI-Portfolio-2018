@@ -53,8 +53,10 @@ class SeatingApp extends Component {
               <li>Interactive floorplans built with Fabric.js framework.</li>
               <li>AWS Elastic Beanstalk and MongoDB hosting.</li>
             </ul>
-            <p className="h5 complement">Check out this web application at <a className="web-link" href="http://seating-app.us-east-1.elasticbeanstalk.com/landing" target="_blank" rel="noopener noreferrer">www.seatingapp.com*</a>.</p>
-            <p className="h5 complement">*App still in development.</p>
+            <div className="project-navigate">
+              <a className="project-button" href="http://seating-app.us-east-1.elasticbeanstalk.com/landing" target="_blank" rel="noopener noreferrer">View</a>
+              <a className="project-button" href="https://github.com/sixtheddie/Seating-App" target="_blank" rel="noopener noreferrer">Source</a>
+            </div>
           </div>
         </div>
     );

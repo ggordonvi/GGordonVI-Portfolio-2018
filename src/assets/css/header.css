@@ -1,23 +1,6 @@
 .navbar {
     background-color: unset !important;
-    padding-left: 0;
-}
-
-.navbar-brand {
-    font-family: 'Permanent Marker', cursive;
-    font-size: 2rem;
-    font-weight: 600;
-    margin-left: 0;
-    margin-bottom: auto;
-    margin-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #ffffff;
-    border-top-right-radius: 0.35rem;
-    border-bottom-right-radius: 0.35rem;
-}
-.navbar-brand:hover {
-    color: #16293f !important;
+    padding: 0 !important;
 }
 
 .navbar-nav {
@@ -27,7 +10,29 @@
     top: 40px;
     right: 0px;
 }
-.nav-item {
+
+.navbar-toggler {
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 0;
+    margin-bottom: auto;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 22px;
+    background-color: #ffffff;
+    border-top-right-radius: 0.35rem;
+    border-bottom-right-radius: 0.35rem;
+}
+.navbar-brand:hover {
+    color: #16293f !important;
+}
+
+.nav-link {
     font-family: 'Permanent Marker', cursive;
     color: #16293f !important;
     /**color: #16293f !important; */
@@ -55,5 +60,10 @@
     }
     .nav-item {
         border-radius: 0.35rem;
+    }
+    .navbar-collapse {
+        position: absolute;
+        right: 0;
+        top: 50px;
     }
 }

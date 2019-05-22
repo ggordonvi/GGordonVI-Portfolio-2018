@@ -26,6 +26,9 @@ class Projects extends Component {
             <div className="col-sm-12 text-center dis-flex">
               <div className="port-info-box mlr-auto">
                 <p className="sub-text white mb-0 g-font">This portfolio was built using React JS and Bootstrap.</p>
+                <div className="project-navigate">
+                  <a className="project-button mlr-auto" href="https://github.com/sixtheddie/Seating-App" target="_blank" rel="noopener noreferrer">Source</a>
+                </div>
               </div>
             </div>
           </div>

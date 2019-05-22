@@ -116,3 +116,32 @@
 .sub-text {
     font-size: 22px;
 }
+
+/** View and Source Project Buttons */
+.project-navigate {
+    display: flex;
+    margin-left: auto;
+    margin-top: 0.5rem;
+}
+
+.project-button {
+    background-color: #D4AF37;
+    color: #16293f;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0.2rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.project-button:hover {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #16293f;
+}
