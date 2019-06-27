@@ -29,7 +29,7 @@ class About extends Component {
             </div>
             <div className="col-sm-12 col-lg-5 text-box mtb-auto">
                <p className="sub-heading complement g-font pt-2">Why web development?</p>
-              <p className="text-info g-font2">I am immensely passionate about every aspect of web development.  I have always had the “let’s see if I can do it” mentality.  I started publishing content online when I was 14 years old.  From portfolio websites built in simple HTML and CSS, to websites built with server-side logic like PHP, then moving on to more structured frameworks like Angular and React and using more flexible server-side frameworks like Node.js, the entire process from concept, to design, to functionality and usability, and eventually deployment, absolutely intrigues me.  I am a front-end web developer with full stack knowledge. </p>
+              <p className="text-info g-font2">I am immensely passionate about every aspect of web development.  I have always had the “let’s see if I can do it” mentality.  I started publishing content online when I was 14 years old.  From portfolio websites built in simple HTML and CSS, to websites built with server-side logic like PHP. Then moving on to more structured frameworks and libraries like Angular and React, along with using more flexible server-side frameworks like Node.js. The entire process from concept, to design, to functionality and usability, and eventually deployment absolutely intrigues me.  I am a front-end web developer with full stack knowledge.</p>
             </div>
           </div>
         </div>
